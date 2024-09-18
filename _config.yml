@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "김예슬"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/coding.png"
   bio              : "Full Stack Developer"
   location         : "South Korea"
   email            :
@@ -324,6 +324,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      sidebar_main: true
 
 date_format: "%Y-%m-%d"
 
