@@ -33,15 +33,36 @@
         <span class="nav__sub-title">🗃️ Project</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘({{category[1].size}})</a></li>
+                    {% if category[0] == "hani" %}
+                        <li><a href="/categories/hani" class="">미니게임 홈페이지 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "SQL" %}
-                        <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
+                    {% if category[0] == "xime" %}
+                        <li><a href="/categories/xime" class="">판매량비교 웹사이트 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "the_bread_blue" %}
+                        <li><a href="/categories/the_bread_blue" class="">MES ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "dagyeom_homepage" %}
+                        <li><a href="/categories/dagyeom_homepage" class="">자사 홈페이지 제작 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "dagyeom_solution" %}
+                        <li><a href="/categories/dagyeom_solution" class="">자사 솔루션 지원 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
