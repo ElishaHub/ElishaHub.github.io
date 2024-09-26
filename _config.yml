@@ -116,7 +116,7 @@ author:
   name             : "김예슬"
   avatar           : "/assets/images/coding.png"
   bio              : "Full Stack Developer"
-  location         : "South Korea"
+  location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
@@ -319,10 +319,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
-      related: true
+      related: false
       show_date: true
       sidebar_main: true
 
